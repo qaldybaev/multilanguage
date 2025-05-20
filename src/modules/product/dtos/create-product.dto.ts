@@ -15,9 +15,5 @@ export class CreateProductDto {
   @IsNumber()
   price: number;
 
-  @ApiProperty()
-  @IsString()
-  @IsNotEmpty()
-  categoryId: string;
 }
 

@@ -9,7 +9,4 @@ export class UpdateProductDto {
 
     @IsNumber()
     price?: number;
-
-    @IsString()
-    categoryId?: string;
 }
